@@ -40,7 +40,7 @@ const Giphy = () => {
     return data.map((el) => {
       return (
         <div key={el.id} className="gif">
-          <img src={el.images.fixed_height.url} />
+          <img src={el.images.fixed_height.url} alt="" />
         </div>
       );
     });
